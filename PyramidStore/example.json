@@ -1,0 +1,31 @@
+[
+  {
+    "key": "py_蓝莓短剧",
+    "name": "蓝莓短剧",
+    "type": 3,
+    "api": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_蓝莓短剧.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 0
+  },
+  {
+    "key": "py_短剧狗",
+    "name": "短剧狗",
+    "type": 3,
+    "api": "./py_短剧狗.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "changeable": 0
+  },
+  {
+    "key": "py_河马短剧",
+    "name": "短剧狗",
+    "type": 3,
+    "api": "./py_河马短剧.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "changeable": 0
+  }
+]
