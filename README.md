@@ -43,7 +43,7 @@ pip install pycryptodome  # 用于某些加密解密场景
 py_spider/
 ├── PyramidStore/         # PyramidStore核心库文件
 │   ├── base/             # 基础工具
-│   │   ├── spider.py     # 爬虫基类（从根目录移动到base下）
+│   │   ├── spider.py     # 爬虫基类
 │   │   ├── local.py      # 本地调试工具基类
 │   │   └── localproxy.py # 本地代理工具
 │   ├── plugin/           # 爬虫插件目录
