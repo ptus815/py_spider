@@ -46,22 +46,15 @@ class Spider(Spider):
         }
         
         # 请求头
-        # self.headers = {
-        #     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        #     "Referer": "https://www.toule.top/",
-        #     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        #     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-        #     "Accept-Encoding": "gzip, deflate, br",
-        #     "Connection": "keep-alive",
-        # }
         self.headers = {
-            "Connection": "keep-alive",
-            "Content-Type": "application/x-www-form-urlencoded",
-            "user-agent": "okhttp/4.10.0",
-            "user_agent": "Mozilla/5.0 (Linux; Android 9; ASUS_I003DD Build/PI; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "Referer": "https://www.toule.top/",
-            "Accept-Encoding": "gzip"
-        }
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive",
+         }
+        
         
         # 缓存
         self.cache = {}
