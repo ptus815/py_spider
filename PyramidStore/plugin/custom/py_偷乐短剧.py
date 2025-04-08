@@ -572,7 +572,7 @@ class Spider(Spider):
         
         return result
     
-    def searchContent(self, key, quick):
+    def searchContent(self, key, quick, pg=1):
         """搜索功能"""
         result = {}
         videos = []
@@ -654,6 +654,9 @@ class Spider(Spider):
         
         result['list'] = videos
         return result
+    
+    def searchContentPage(self, key, quick, pg=1):
+        return self.searchContent(key, quick, pg)
     
     def playerContent(self, flag, id, vipFlags):
         """获取播放内容"""
