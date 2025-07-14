@@ -1,0 +1,9 @@
+{
+  "key": "91nt",
+  "name": "91NT",
+  "type": 3,
+  "api":"https://raw.githubusercontent.com/ptus815/py_spider/refs/heads/main/PyramidStore/plugin/custom/py_91nt.py",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1
+}
